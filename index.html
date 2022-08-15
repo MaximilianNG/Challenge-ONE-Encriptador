@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador</title>
+        <meta name="viewport" content="width=device-width"> 
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/12b91aa229.js" crossorigin="anonymous"></script>
+        <script src="script.js" defer></script>
+    </head>
+
+    <body>
+        <header>
+            <img class="logo" src="logo.png">
+        </header>
+
+        <main>
+            <div class="panel-izquierdo">
+                <section class="principal">
+                    <textarea placeholder="Ingrese el texto aquí" class="campoParaIngresarTexto"></textarea>
+                        <div class="aclaracion"><p><i class="fa-solid fa-circle-exclamation"></i> Solo letras minúsculas y sin acentos</p></div>
+                </section>
+                <div class="botones">
+                    <button class="pulsar boton encriptar">Encriptar</button>
+                    <button class="pulsar boton desencriptar">Desencriptar</button>
+                </div>
+            </div>
+            <div class="areaMensajeDesencriptado">
+                <img class="muñeco" src="muñeco.png">
+                <p class="mensajeDesencriptado">Ningún mensaje fue encontrado</p>
+                <p class="recomendacion">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <div class="botones2">
+                <button class="refrescar pulsar"><i class="fa-solid fa-arrows-rotate"></i></button>
+                <button class="copiar pulsar">Copiar <i class="fa-solid fa-copy"></i></button>
+            </div>
+        </main>
+    </body>
+
+</html>
